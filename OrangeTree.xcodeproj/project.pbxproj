@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEC9EA1F26C3952B00084DD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC9EA1E26C3952B00084DD9 /* AppDelegate.swift */; };
+		AEC9EA2126C3952B00084DD9 /* Level-1.sks in Resources */ = {isa = PBXBuildFile; fileRef = AEC9EA2026C3952B00084DD9 /* Level-1.sks */; };
+		AEC9EA2526C3952B00084DD9 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC9EA2426C3952B00084DD9 /* GameScene.swift */; };
+		AEC9EA2726C3952B00084DD9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC9EA2626C3952B00084DD9 /* GameViewController.swift */; };
+		AEC9EA2A26C3952B00084DD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC9EA2826C3952B00084DD9 /* Main.storyboard */; };
+		AEC9EA2C26C3952F00084DD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC9EA2B26C3952F00084DD9 /* Assets.xcassets */; };
+		AEC9EA3426C3954400084DD9 /* Smashing-Things.atlas in Resources */ = {isa = PBXBuildFile; fileRef = AEC9EA3326C3954400084DD9 /* Smashing-Things.atlas */; };
+		AEC9EA3626C39AE700084DD9 /* Orange.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC9EA3526C39AE700084DD9 /* Orange.swift */; };
+		AEC9EA3826C3AEE500084DD9 /* Level-2.sks in Resources */ = {isa = PBXBuildFile; fileRef = AEC9EA3726C3AEE500084DD9 /* Level-2.sks */; };
+		AEC9EA3A26C3B1D300084DD9 /* Level-3.sks in Resources */ = {isa = PBXBuildFile; fileRef = AEC9EA3926C3B1D300084DD9 /* Level-3.sks */; };
+		AEC9EA4426C498B000084DD9 /* Level-4.sks in Resources */ = {isa = PBXBuildFile; fileRef = AEC9EA4326C498B000084DD9 /* Level-4.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AEC9EA1B26C3952B00084DD9 /* OrangeTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrangeTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC9EA1E26C3952B00084DD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEC9EA2026C3952B00084DD9 /* Level-1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Level-1.sks"; sourceTree = "<group>"; };
+		AEC9EA2426C3952B00084DD9 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		AEC9EA2626C3952B00084DD9 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AEC9EA2926C3952B00084DD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEC9EA2B26C3952F00084DD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEC9EA2D26C3952F00084DD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEC9EA3326C3954400084DD9 /* Smashing-Things.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = "Smashing-Things.atlas"; sourceTree = "<group>"; };
+		AEC9EA3526C39AE700084DD9 /* Orange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orange.swift; sourceTree = "<group>"; };
+		AEC9EA3726C3AEE500084DD9 /* Level-2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Level-2.sks"; sourceTree = "<group>"; };
+		AEC9EA3926C3B1D300084DD9 /* Level-3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Level-3.sks"; sourceTree = "<group>"; };
+		AEC9EA4326C498B000084DD9 /* Level-4.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Level-4.sks"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEC9EA1826C3952B00084DD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEC9EA1226C3952B00084DD9 = {
+			isa = PBXGroup;
+			children = (
+				AEC9EA1D26C3952B00084DD9 /* OrangeTree */,
+				AEC9EA1C26C3952B00084DD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEC9EA1C26C3952B00084DD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEC9EA1B26C3952B00084DD9 /* OrangeTree.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEC9EA1D26C3952B00084DD9 /* OrangeTree */ = {
+			isa = PBXGroup;
+			children = (
+				AEC9EA3326C3954400084DD9 /* Smashing-Things.atlas */,
+				AEC9EA1E26C3952B00084DD9 /* AppDelegate.swift */,
+				AEC9EA3B26C3B1DC00084DD9 /* Levels */,
+				AEC9EA2426C3952B00084DD9 /* GameScene.swift */,
+				AEC9EA3526C39AE700084DD9 /* Orange.swift */,
+				AEC9EA2626C3952B00084DD9 /* GameViewController.swift */,
+				AEC9EA2826C3952B00084DD9 /* Main.storyboard */,
+				AEC9EA2B26C3952F00084DD9 /* Assets.xcassets */,
+				AEC9EA2D26C3952F00084DD9 /* Info.plist */,
+			);
+			path = OrangeTree;
+			sourceTree = "<group>";
+		};
+		AEC9EA3B26C3B1DC00084DD9 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				AEC9EA2026C3952B00084DD9 /* Level-1.sks */,
+				AEC9EA3726C3AEE500084DD9 /* Level-2.sks */,
+				AEC9EA3926C3B1D300084DD9 /* Level-3.sks */,
+				AEC9EA4326C498B000084DD9 /* Level-4.sks */,
+			);
+			path = Levels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEC9EA1A26C3952B00084DD9 /* OrangeTree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEC9EA3026C3952F00084DD9 /* Build configuration list for PBXNativeTarget "OrangeTree" */;
+			buildPhases = (
+				AEC9EA1726C3952B00084DD9 /* Sources */,
+				AEC9EA1826C3952B00084DD9 /* Frameworks */,
+				AEC9EA1926C3952B00084DD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrangeTree;
+			productName = OrangeTree;
+			productReference = AEC9EA1B26C3952B00084DD9 /* OrangeTree.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEC9EA1326C3952B00084DD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					AEC9EA1A26C3952B00084DD9 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = AEC9EA1626C3952B00084DD9 /* Build configuration list for PBXProject "OrangeTree" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEC9EA1226C3952B00084DD9;
+			productRefGroup = AEC9EA1C26C3952B00084DD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEC9EA1A26C3952B00084DD9 /* OrangeTree */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEC9EA1926C3952B00084DD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC9EA3A26C3B1D300084DD9 /* Level-3.sks in Resources */,
+				AEC9EA3826C3AEE500084DD9 /* Level-2.sks in Resources */,
+				AEC9EA2A26C3952B00084DD9 /* Main.storyboard in Resources */,
+				AEC9EA2126C3952B00084DD9 /* Level-1.sks in Resources */,
+				AEC9EA2C26C3952F00084DD9 /* Assets.xcassets in Resources */,
+				AEC9EA3426C3954400084DD9 /* Smashing-Things.atlas in Resources */,
+				AEC9EA4426C498B000084DD9 /* Level-4.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEC9EA1726C3952B00084DD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC9EA2526C3952B00084DD9 /* GameScene.swift in Sources */,
+				AEC9EA2726C3952B00084DD9 /* GameViewController.swift in Sources */,
+				AEC9EA1F26C3952B00084DD9 /* AppDelegate.swift in Sources */,
+				AEC9EA3626C39AE700084DD9 /* Orange.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AEC9EA2826C3952B00084DD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEC9EA2926C3952B00084DD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEC9EA2E26C3952F00084DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEC9EA2F26C3952F00084DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEC9EA3126C3952F00084DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OrangeTree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.victoriatreue.OrangeTree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEC9EA3226C3952F00084DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OrangeTree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.victoriatreue.OrangeTree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEC9EA1626C3952B00084DD9 /* Build configuration list for PBXProject "OrangeTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC9EA2E26C3952F00084DD9 /* Debug */,
+				AEC9EA2F26C3952F00084DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEC9EA3026C3952F00084DD9 /* Build configuration list for PBXNativeTarget "OrangeTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC9EA3126C3952F00084DD9 /* Debug */,
+				AEC9EA3226C3952F00084DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEC9EA1326C3952B00084DD9 /* Project object */;
+}
